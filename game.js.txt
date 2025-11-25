@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Slope Clone</title>
+  <style>
+    body { margin:0; overflow:hidden; background:black; color:white; font-family:system-ui,-apple-system,Segoe UI; }
+    #warning { background:yellow; padding:10px; text-align:center; font-size:18px; font-weight:700; color:black; }
+    canvas { display:block; width:100vw; height:calc(100vh - 56px); }
+    footer { text-align:center; font-size:12px; padding:6px; }
+  </style>
+</head>
+<body>
+  <div id="warning">⚠️ Do NOT play this unless you have free time!</div>
+  <canvas id="game"></canvas>
+  <footer>Fan-made remake — credits to the original Slope.</footer>
+  <script src="game.js"></script>
+</body>
+</html>
